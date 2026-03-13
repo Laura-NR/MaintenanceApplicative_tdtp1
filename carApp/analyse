@@ -1,0 +1,8 @@
+   Défauts de qualité identifiés :
+
+ - Conducteur.changerVitesse -> C'est la voiture qui devrait ralentir ou accelérer, le conducteur devrait juste definir la velocité
+ - Voiture.accelerer et Voiture.ralentir -> Valeurs en dur
+ - La classe Voiture ne devrait pas faire des "print" dans des méthodes de logique métier
+ - Conductor.estAdulte -> 10 ans c'est trop petit
+ - Nommage -> les paramettres sont en anglais alors que les variables sont en français
+ - Conductor.demarrerVoiture -> Objet Voiture reçu en paramèttre n'est jamais utilisé
